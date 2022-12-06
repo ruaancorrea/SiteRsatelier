@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1380px;
+    margin:0 auto;
+    padding:0 2%;
+   
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+}
+
+header{
+    padding: 14px 0;
+    background-color: rgb(254, 185, 234);
+}
+
+.logo{
+    width: 50px;
+    padding-left: 10%;
+    padding-top: 0%;
+   
+
+
+    
+
+}
+
+.logo img {
+    border-radius: 80%;
+    width: 88px;
+    
+}
+
+.menu{
+    width: 80%;
+    text-align:right;
+    padding-top: 18px;
+
+
+}
+.menu a{
+    color: rgb(231, 0, 173);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;    
+}
+
+section.sobre{
+    position: fixed;
+}
+
+.social-media {
+    position: relative;
+    top: 40px;
+    left: 1318px;
+}
+
+.social-media img {
+ max-height: 40px;
+ max-width: 40px;
+ display: block;
+ margin: 16px 0;
+
+}
+
+.image-loja {
+    position: absolute;
+    top:40px;
+}
+
+.image-loja img{
+    max-height: 680px;
+    max-width: 680px;
+    border-radius: 4%;
+
+}
+
+.loja{
+    margin-left: 688px;
+    margin-right: 144px;
+    align-items:center;
+    margin-top: -78px;
+    color:rgb(231, 0, 173);
+    text-align:left;
+}
+.sho {
+    position: absolute;
+    top:40px;
+}
+
+.sho img {
+    max-width: 218px;
+    border-radius: 6%;
+    margin-left: 748px;
+    margin-top: 14%;
+
+}
+
+.noos {
+    margin-top: 32%;
+    margin-left: 2%;
+    position: absolute;
+}
+
+.noos p {
+    margin: 6px 0;
+
+}
+
+.roda {
+    margin-top: 38%;
+    margin-left: 2%;
+}
+
+form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 28px;
+    padding: 8px;
+    margin-left: 215%;
+    margin-top: -124;
+}
+form textarea{
+ resize: none;
+ height: 180px;
+ margin-top: -82%;
+}
+
+form button {
+    background-color: rgb(254, 185, 234);
+    color: rgb(231, 0, 173);
+    border: none;
+    cursor: pointer;
+    margin-top: -10%;
+    height: 36px;
+    
+}
+
+form button:hover {
+    background-color: rgb(90, 5, 64) ;
+}
